@@ -1,0 +1,1 @@
+Get-UnifiedGroup -ResultSize Unlimited | Select DisplayName,GroupType,PrimarySmtpAddress
