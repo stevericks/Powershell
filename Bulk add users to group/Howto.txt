@@ -1,0 +1,16 @@
+open powershell script and change $UserList variable to your users.txt file.
+
+Change variable $GroupName to your group
+
+Save.
+
+add users to users.txt
+
+Save
+
+Open powershell as administrator
+
+CD to where your ps1 file is.
+
+Run Bulk_Add_Users_To_ADGroup.ps1
+
