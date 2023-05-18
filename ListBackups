@@ -1,0 +1,14 @@
+#This will list all backups on a rsv
+
+Connect-AzAccount
+
+#set subscription first
+#this is the id of the financier non prod sub
+Set-AzContext -SubscriptionId "6c5040c5-88d5-4946-a7b9-1b82b5a52769"
+
+
+Get-AzRecoveryServicesBackupContainer -VaultId "/subscriptions/6c5040c5-88d5-4946-a7b9-1b82b5a52769/resourceGroups/rg-bcdr-uks-financier-non-prd/providers/Microsoft.RecoveryServices/vaults/rsv-fgh-lrsbackup-uks-financier-non-prd"
+
+Enter the container type AzureVM.
+
+PS C:\Windows\system32> Get-AzRecoveryServicesBackupContainer -VaultId "/subscriptions/6c5040c5-88d5-4946-a7b9-1b82b5a52769/resourceGroups/rg-bcdr-uks-financier-non-prd/providers/Microsoft.RecoveryServices/vaults/rsv-fgh-lrsbackup-uks-financier-non-prd"
